@@ -1,0 +1,1 @@
+const t=t=>{const e=t.querySelector("ion-menu-controller");return e?e.componentOnReady():Promise.resolve(void 0)},e=async e=>{const n=await t(document);n&&await n.get(e)&&n.toggle(e)},n=async e=>{const n=await t(document);if(n){const t=await n.get(e);if(t&&await t.isActive())return!0}return!1};export{e as t,n as u};
